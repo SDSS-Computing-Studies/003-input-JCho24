@@ -32,4 +32,3 @@ s3 = math.sqrt(s3)
 
 print("The hypotenuse = " ,end="")
 print(s3)
-

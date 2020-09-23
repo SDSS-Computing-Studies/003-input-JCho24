@@ -36,4 +36,3 @@ equation = float(equation)
 
 print("Therefore x = " ,end="")
 print(equation)
-
