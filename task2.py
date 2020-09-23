@@ -11,3 +11,13 @@
 # volume
 #
 # test output radius of 3 should give volume of 84.8230016469
+
+import math
+Fsphere = "V=(4/3)πr**3"
+print("The formula for the volume of a sphere is " + Fsphere)
+print("Type in a radius and it will determine the volume of the sphere")
+radius = input()
+radius = float(radius)
+VSphere = 4/3 * math.pi * radius**3
+print("The volume of the Sphere = " ,end="")
+print(VSphere)
