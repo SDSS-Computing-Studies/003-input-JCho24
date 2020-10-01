@@ -16,7 +16,7 @@ import math
 Fsphere = "V=(4/3)πr**3"
 print("The formula for a sphere is " + Fsphere)
 print("Type in a radius and it will determine the volume of the sphere")
-radius = input()
+radius = input().split()
 radius = float(radius)
 VSphere = 4/3 * math.pi * radius**3
 print("The volume of the Sphere = " ,end="")
