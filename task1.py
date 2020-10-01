@@ -15,4 +15,4 @@ name = input()
 print("What is your email?")
 email = input()
 
-print("Your name is " + name + ", and your email is " + email)
+print("Your name is " + name +", and your email is " + email + ".")
